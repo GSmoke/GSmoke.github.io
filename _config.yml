@@ -1,0 +1,120 @@
+
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+url: http://yujianbin.github.io
+date_format: "ordinal"
+title: 老于
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+keywords: 老于, yujianbin, iOS, Android
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# 头像里面的标题
+avatarTitle: Bruce Yu
+# 头像里面的描述
+avatarDesc: iOS / Android
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: yujianbin
+organization: zkh360.com
+organization_url: http://www.zkh360.com
+github_username: yujianbin
+location: Beijing, China
+email: yjbayt@gmail.com
+
+
+
+# Comment
+comment:
+    enable: false    #
+    disqus: yujianbin
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    enable: true    #是否开启Gitalk评论
+    repo: yujianbin.github.io    #仓库名称
+    clientID: af6ba289b913b6f55eb8
+    clientSecret: 43e2d19b36df5206e54d77d78edb49036a16aa55
+    owner: yujianbin    #github用户名
+    admin: yujianbin
+    distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# Social
+social:
+    # weibo: 5366874726
+    github: yjbGitHub
+    # twitter:
+    mail: yjbayt@163.com
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    id: ec9954feab3410e7c444ae7e6160af64
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-119463232-1
+    host: auto
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 分类, description: categorys, url: '/categories'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
+
+
+# Pagination
+# gems: [jekyll-paginate,jekyll-sitemap]
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
