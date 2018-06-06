@@ -2,28 +2,28 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-url: http://yujianbin.github.io
+url: https://gsmoke.github.io/
 date_format: "ordinal"
-title: 老于
+title: GSmoke
 subtitle: 个人站
 description: 欢迎来到我的个人站~
-keywords: 老于, yujianbin, iOS, Android
+keywords: GSmoke, geshuyue, iOS, Python
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # 头像里面的标题
 avatarTitle: Bruce Yu
 # 头像里面的描述
-avatarDesc: iOS / Android
+avatarDesc: iOS / Python
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: yujianbin
+author: GSmoke
 organization: zkh360.com
 organization_url: http://www.zkh360.com
 github_username: yujianbin
-location: Beijing, China
+location: Hangzhou, China
 email: yjbayt@gmail.com
 
 
