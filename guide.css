@@ -1,0 +1,27 @@
+ul,li,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    width: 1200px;
+    height: 64px;
+    background: #ff0000;
+}
+
+nav ul{
+    width: 600px;
+    height: 100%;
+    display: flex;
+}
+
+nav ul li{
+
+    float: left;
+    flex: 1;
+
+}
+
+
